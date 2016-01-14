@@ -16,8 +16,9 @@ alias gis='git status'
 alias gif='git fetch'
 
 #hint - make quicklinks to working directory - use projects first letter(s)
-alias cde='cd ~/appdev/eventory.io'
+alias cdm='cd ~/myapplocation'
+alias cdo='cd ~/otherapp'
 
 #hint if you ssh into specific servers, then ss(first letter(s)) of server 
-alias ssa='ssh awesomecode@w3villa'
+alias ssa='ssh awesomecodeby@w3villa'
 #etc
