@@ -5,7 +5,7 @@ alias lal='compgen -a'
 alias gpgd='git pull github develop'
 
 #quick add commit push to entered repo
-alias gpom="git add . && git commit -m 'autopush' && git push origin $1
+alias gpom="git add . && git commit -m 'autopush' && git push origin $1"
 alias gif='git fetch'
 alias gic='git checkout $1'
 alias gig='git pull origin $1'
