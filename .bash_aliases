@@ -1,11 +1,6 @@
 #show these shortcommands (linux)
 alias lal='compgen -a'
 
-#if you use develop for most current work
-alias gpgd='git pull github develop'
-
-#quick add commit push to entered repo
-alias gpom="git add . && git commit -m 'autopush' && git push origin $1"
 alias gif='git fetch'
 alias gic='git checkout $1'
 alias gig='git pull origin $1'
@@ -14,6 +9,7 @@ alias gim='git commit -m $1'
 alias gip='git push origin $1'
 alias gis='git status'
 alias gif='git fetch'
+:wias gfh='git pull heroku remote '       #for a default initial heroku set up add --app --staging as needed with app/remote
 
 alias test = 'bundle exec rspec spec $1'
 #hint - make quicklinks to working directory - use projects first letter(s)
@@ -27,4 +23,8 @@ alias ssa='ssh awesomecodeby@w3villa'
 #using heroku?
 alias gph='git push heroku master'
 
+#if you use develop for most current work
+alias gpgd='git pull github develop'
 
+#quick add commit push to entered repo
+alias gpom="git add . && git commit -m 'autopush' && git push origin $1"
