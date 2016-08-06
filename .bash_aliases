@@ -17,11 +17,11 @@ alias cdm='cd ~/myapplocation'
 alias cdo='cd ~/otherapp'
 
 #hint if you ssh into specific servers, then ss(first letter(s)) of server name etc 
-alias ssa='ssh awesomecodeby@w3villa'
+alias ssa='ssh awesomecodeby@somebody'
 #etc
 
-#using heroku?
-alias gph='git push heroku master'
+#using heroku? push master after testing 
+alias gphm='bundle exec rspec spec | check for pass code  && git push heroku master'
 
 #if you use develop for most current work
 alias gpgd='git pull github develop'
